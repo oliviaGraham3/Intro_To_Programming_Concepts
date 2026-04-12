@@ -29,5 +29,5 @@ def makingOrder():
     ordersPlaced.pop(len(ordersPlaced) - 1)
     joinStatement = ", ".join(ordersPlaced)
 
-    print("You ordered ", joinStatement, ". Your total is $", totalPrice)
+    print("You ordered", joinStatement, ". Your total is $", totalPrice)
 makingOrder()
